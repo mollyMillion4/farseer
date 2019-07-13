@@ -68,7 +68,13 @@ func main(){
 	output := connectToHosts(connConfig)
 	parsedOutputs := parseJournalCtlOutput(output, connConfig)
 	displayOutput(parsedOutputs)
-
+        var heart[5]string
+        heart[0] = "  ,d88b.d88b, "
+	heart[1] = "  88888888888 "
+	heart[2] = "  `Y8888888Y' "
+	heart[3] = "    `Y888Y'   "
+	heart[4] = "      `Y'     "
+	fmt.Printf("khodges42  + mollyMillion4 = \n%s\n%s\n%s\n%s\n%s\n", heart[0], heart[1], heart[2], heart[3], heart[4])
 }
 
 func displayOutput(output []journalCtlLog){
